@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<title>Sistem Kelinik Dokter</title>
+	</head>
+	<body>
+	<div class="container">
+	<nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#4cee1b">
+  <a class="navbar-brand" href="#">
+  <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+  KlikDok</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="media.html"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><i class="fa fa-power-off"></i> Logout</a>
+      </li>
+    </ul>
+
+  </div>
+</nav><br>
+
+	<img src="img/herbal5.png"><br><br>
+<div class="row">
+	<div class="col-md-3">
+	<div class="list-group">
+    <li class="list-group-item list-group-item-action" style="background-color:#4cee1b">
+    Data Master
+  </li>
+  <a href="media.html" class="list-group-item list-group-item-action"><i class="fa fa-home"></i> Home</a>
+              <a href="indexdok.html" class="list-group-item list-group-item-action"><i class="fa fa-user"></i> Apoteker</a>
+              <a href="indexobat.html" class="list-group-item list-group-item-action"><i class="fa fa-heart"></i> Obat</a>
+              <a href="indexherbal.html" class="list-group-item list-group-item-action"><i class="fa fa-leaf"></i> Herbal</a>
+</div><br>
+</div>
+<div class="col-md-9">
+<div class="card">
+  <h5 class="card-header text-white" style="background-color:#4cee1b">Template Form</h5>
+  <div class="card-body">
+
+<h5>INPUT DATA ADMIN</h5>
+    <form method="post" action="">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Username </label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="input username disini">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Password</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="input Password disini">
+  </div>
+ <div class="form-group">
+    <label for="exampleFormControlInput1">Email</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="alamat email anda">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Password Email</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Password email anda">
+
+    
+  </div>
+  <a class="btn btn-secondary" href="index.html" role="button">SIMPAN</a>
+  <button type="reset" class="btn btn-warning">BATAL</button>
+</form>
+
+  </div>
+</div>
+</div>
+</div><br>
+<div class="card">
+  <div class="card-body"><center>
+    Copyright &copy; 2019 Kelinik Dokter</center>
+  </div>
+</div>
+	</div>
+	<script src="../jsjquery-3.3.1.slim.min.js"></script>
+    <script src="../jspopper.min.js"></script>
+	<script src="../jsjquery.dataTables.min.js"></script>
+	<script src="../jsdataTables.bootstrap4.min.js"></script>
+	<script src="../jsbootstrap.min.js"></script>
+	<script>
+	$(document).ready(function() {
+    $('#example').DataTable();
+	} );
+	</script>
+  </body>
+</html>
